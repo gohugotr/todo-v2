@@ -1,5 +1,6 @@
 import Input from './components/Input'
-import Header from "./components/Header"
+import Header from './components/Header'
+import ListContent from './components/ListContent'
 
 const App = () => {
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className='md:container md:mx-auto'>
       <Header>
         <Input />
+        <ListContent/>
       </Header>
     </div>
   )
